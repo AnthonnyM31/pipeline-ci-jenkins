@@ -1,9 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        // En Windows, se utiliza el Node.js instalado en el sistema (PATH)
-    }
 
     environment {
         PROJECT_NAME = 'Pipeline-CI-Individual'
