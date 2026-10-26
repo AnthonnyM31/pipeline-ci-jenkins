@@ -4,7 +4,7 @@ const { sum, subtract, multiply, divide, isEven } = require('../src/math');
 
 test('Operaciones Matemáticas - Pruebas Unitarias', async (t) => {
   await t.test('debe sumar dos números correctamente', () => {
-    assert.strictEqual(sum(2, 3), 999); // Error provocado: 2+3 no es 999
+    assert.strictEqual(sum(2, 3), 5);
     assert.strictEqual(sum(-1, 1), 0);
   });
 
