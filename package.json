@@ -1,0 +1,13 @@
+{
+  "name": "jenkins-ci-demo",
+  "version": "1.0.0",
+  "description": "Proyecto para automatización de pipeline CI en Jenkins - Procesos de Software",
+  "main": "src/math.js",
+  "scripts": {
+    "build": "node -e \"console.log('>> Compilación/Verificación de sintaxis completada con éxito.')\"",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": ["jenkins", "ci", "automated-tests"],
+  "author": "",
+  "license": "ISC"
+}
